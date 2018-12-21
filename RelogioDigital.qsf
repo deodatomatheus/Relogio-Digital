@@ -1,0 +1,150 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+# Date created = 13:53:43  June 19, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		RelogioDigital_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY projeto
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:53:43  JUNE 19, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name VERILOG_FILE RelogioDigital.v
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name VERILOG_FILE miliseconds.v
+set_global_assignment -name VERILOG_FILE digit0to5.v
+set_global_assignment -name VERILOG_FILE digit0to9.v
+set_global_assignment -name BDF_FILE projeto.bdf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_Y2 -to CLOCK
+set_location_assignment PIN_R24 -to KEY3
+set_global_assignment -name MISC_FILE "C:/Users/mdo2/Desktop/RelogioDigital/RelogioDigital.dpf"
+set_global_assignment -name BDF_FILE SEGUNDOS.bdf
+set_global_assignment -name VERILOG_FILE ativador.v
+set_global_assignment -name VERILOG_FILE debouncing.v
+set_global_assignment -name VERILOG_FILE minutos.v
+set_global_assignment -name VERILOG_FILE decodificador.v
+set_global_assignment -name VERILOG_FILE segundos0.v
+set_location_assignment PIN_G18 -to HEX5[0]
+set_location_assignment PIN_F22 -to HEX5[1]
+set_location_assignment PIN_E17 -to HEX5[2]
+set_location_assignment PIN_L26 -to HEX5[3]
+set_location_assignment PIN_L25 -to HEX5[4]
+set_location_assignment PIN_J22 -to HEX5[5]
+set_location_assignment PIN_H22 -to HEX5[6]
+set_global_assignment -name VERILOG_FILE segundos1e2.v
+set_location_assignment PIN_U24 -to HEX6[6]
+set_location_assignment PIN_M24 -to HEX6[0]
+set_location_assignment PIN_Y22 -to HEX6[1]
+set_location_assignment PIN_W21 -to HEX6[2]
+set_location_assignment PIN_W22 -to HEX6[3]
+set_location_assignment PIN_W25 -to HEX6[4]
+set_location_assignment PIN_U23 -to HEX6[5]
+set_location_assignment PIN_AA25 -to HEX7[0]
+set_location_assignment PIN_AA26 -to HEX7[1]
+set_location_assignment PIN_Y25 -to HEX7[2]
+set_location_assignment PIN_W26 -to HEX7[3]
+set_location_assignment PIN_Y26 -to HEX7[4]
+set_location_assignment PIN_W27 -to HEX7[5]
+set_location_assignment PIN_W28 -to HEX7[6]
+set_global_assignment -name VERILOG_FILE segundos3.v
+set_location_assignment PIN_V21 -to HEX8[0]
+set_location_assignment PIN_U21 -to HEX8[1]
+set_location_assignment PIN_AB20 -to HEX8[2]
+set_location_assignment PIN_AA21 -to HEX8[3]
+set_location_assignment PIN_AD24 -to HEX8[4]
+set_location_assignment PIN_AF23 -to HEX8[5]
+set_location_assignment PIN_Y19 -to HEX8[6]
+set_location_assignment PIN_AB19 -to HEX9[0]
+set_location_assignment PIN_AA19 -to HEX9[1]
+set_location_assignment PIN_AG21 -to HEX9[2]
+set_location_assignment PIN_AH21 -to HEX9[3]
+set_location_assignment PIN_AE19 -to HEX9[4]
+set_location_assignment PIN_AF19 -to HEX9[5]
+set_location_assignment PIN_AE18 -to HEX9[6]
+set_location_assignment PIN_M21 -to KEY1
+set_location_assignment PIN_N21 -to KEY2
+set_location_assignment PIN_Y23 -to SW17
+set_location_assignment PIN_Y24 -to SW16
+set_location_assignment PIN_AA22 -to SW15
+set_location_assignment PIN_AA23 -to SW14
+set_location_assignment PIN_AD18 -to HEX10[0]
+set_location_assignment PIN_AC18 -to HEX10[1]
+set_location_assignment PIN_AB18 -to HEX10[2]
+set_location_assignment PIN_AH19 -to HEX10[3]
+set_location_assignment PIN_AG19 -to HEX10[4]
+set_location_assignment PIN_AF18 -to HEX10[5]
+set_location_assignment PIN_AH18 -to HEX10[6]
+set_global_assignment -name VERILOG_FILE horas.v
+set_location_assignment PIN_AA17 -to HEX11[0]
+set_location_assignment PIN_AB16 -to HEX11[1]
+set_location_assignment PIN_AA16 -to HEX11[2]
+set_location_assignment PIN_AB17 -to HEX11[3]
+set_location_assignment PIN_AB15 -to HEX11[4]
+set_location_assignment PIN_AA15 -to HEX11[5]
+set_location_assignment PIN_AC17 -to HEX11[6]
+set_location_assignment PIN_AD17 -to HEX12[0]
+set_location_assignment PIN_AE17 -to HEX12[1]
+set_location_assignment PIN_AG17 -to HEX12[2]
+set_location_assignment PIN_AH17 -to HEX12[3]
+set_location_assignment PIN_AF17 -to HEX12[4]
+set_location_assignment PIN_AG18 -to HEX12[5]
+set_location_assignment PIN_AA14 -to HEX12[6]
+set_global_assignment -name VERILOG_FILE segundos0C.v
+set_location_assignment PIN_M23 -to KEY0
+set_global_assignment -name VERILOG_FILE minutosC.v
+set_global_assignment -name VERILOG_FILE horaC.v
+set_global_assignment -name BDF_FILE CRONOMETRO.bdf
+set_global_assignment -name BDF_FILE RELOGIO.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_location_assignment PIN_H15 -to SSW17
+set_location_assignment PIN_G16 -to SSW16
+set_location_assignment PIN_G15 -to SSW15
+set_location_assignment PIN_F15 -to SSW14
+set_location_assignment PIN_G22 -to SKEY3
+set_location_assignment PIN_H21 -to SKEY2
+set_location_assignment PIN_E25 -to SKEY1
+set_location_assignment PIN_E21 -to SKEY0
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

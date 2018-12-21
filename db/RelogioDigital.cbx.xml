@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="RelogioDigital">
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto|CRONOMETRO:inst12|minutosC:inst10|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_i9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto|RELOGIO:inst|horas:inst1|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_hhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto|RELOGIO:inst|minutos:inst|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_k9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto|CRONOMETRO:inst12|minutosC:inst10|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_fhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto|RELOGIO:inst|horas:inst1|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_k9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto|RELOGIO:inst|minutos:inst|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_hhm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

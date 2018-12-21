@@ -1,0 +1,9 @@
+Warning (10268): Verilog HDL information at debouncing.v(7): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at minutos.v(11): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at segundos0.v(19): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at segundos1e2.v(21): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at segundos3.v(21): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at horas.v(11): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at segundos0C.v(30): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at minutosC.v(19): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at horaC.v(19): always construct contains both blocking and non-blocking assignments
